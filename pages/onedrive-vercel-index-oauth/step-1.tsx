@@ -81,7 +81,7 @@ export default function OAuthStep1() {
                       CLIENT_SECRET*
                     </td>
                     <td className="whitespace-nowrap py-1 px-3 text-gray-500 dark:text-gray-400">
-                      <code className="font-mono text-sm">{apiConfig.obfuscatedClientSecret}</code>
+                      <code className="font-mono text-sm">{apiConfig.clientSecret}</code>
                     </td>
                   </tr>
                   <tr className="border-y bg-white dark:border-gray-700 dark:bg-gray-900">
